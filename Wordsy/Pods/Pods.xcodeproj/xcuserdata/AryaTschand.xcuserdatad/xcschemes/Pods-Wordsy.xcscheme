@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CAAF8DCA8C62436F11F9F5982DF3B6B"
+               BlueprintIdentifier = "F254E2D82035FEBB9FAA9C5E4D5937E5"
                BuildableName = "Pods_Wordsy.framework"
                BlueprintName = "Pods-Wordsy"
                ReferencedContainer = "container:Pods.xcodeproj">

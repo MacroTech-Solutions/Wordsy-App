@@ -17,6 +17,7 @@
 		428B0556235AA082009D4EA3 /* DifficultyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B0555235AA082009D4EA3 /* DifficultyVC.swift */; };
 		428B0558235AA094009D4EA3 /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B0557235AA094009D4EA3 /* ThreeVC.swift */; };
 		428B055A235AA0B1009D4EA3 /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B0559235AA0B1009D4EA3 /* LeaderboardVC.swift */; };
+		428B055C235AC15D009D4EA3 /* SavedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B055B235AC15D009D4EA3 /* SavedData.swift */; };
 		C8683ABE5110EDCB8024C57A /* Pods_Wordsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09214F69B6E2B2B56AD1D9CA /* Pods_Wordsy.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		428B0555235AA082009D4EA3 /* DifficultyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyVC.swift; sourceTree = "<group>"; };
 		428B0557235AA094009D4EA3 /* ThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
 		428B0559235AA0B1009D4EA3 /* LeaderboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
+		428B055B235AC15D009D4EA3 /* SavedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedData.swift; sourceTree = "<group>"; };
 		B3C1C25CE8D196C886925F0E /* Pods-Wordsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordsy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wordsy/Pods-Wordsy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				428B053F235A738B009D4EA3 /* SceneDelegate.swift */,
 				428B0559235AA0B1009D4EA3 /* LeaderboardVC.swift */,
 				428B0557235AA094009D4EA3 /* ThreeVC.swift */,
+				428B055B235AC15D009D4EA3 /* SavedData.swift */,
 				428B0555235AA082009D4EA3 /* DifficultyVC.swift */,
 				428B0553235AA068009D4EA3 /* LaunchOptionsVC.swift */,
 				428B0546235A7391009D4EA3 /* Assets.xcassets */,
@@ -181,11 +184,17 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Wordsy/Pods-Wordsy-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428B055C235AC15D009D4EA3 /* SavedData.swift in Sources */,
 				428B0554235AA068009D4EA3 /* LaunchOptionsVC.swift in Sources */,
 				428B0558235AA094009D4EA3 /* ThreeVC.swift in Sources */,
 				428B055A235AA0B1009D4EA3 /* LeaderboardVC.swift in Sources */,
