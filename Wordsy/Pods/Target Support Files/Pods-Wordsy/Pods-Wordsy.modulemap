@@ -1,0 +1,6 @@
+framework module Pods_Wordsy {
+  umbrella header "Pods-Wordsy-umbrella.h"
+
+  export *
+  module * { export * }
+}
